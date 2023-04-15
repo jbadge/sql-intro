@@ -124,3 +124,21 @@ CREATE TABLE "Books" (
 );
 
 ---------------------------------------------------------------------------------------------
+
+select * FROM "Employees";
++------------------+--------+-------------+----------------+------------+-------------+----+--------------+
+| FullName         | Salary | JobPosition | PhoneExtension | IsPartTime | ParkingSpot | id | DepartmentId |
+|------------------+--------+-------------+----------------+------------+-------------+----+--------------|
+| Walter White     | 500    | COOK        | <null>         | False      | <null>      | 11 | <null>       |
+| Jesse Pinkman    | 500    | COOK        | <null>         | False      | <null>      | 12 | <null>       |
+| Lex De Haan      | 9000   | IT_PROG     | 4501           | False      | <null>      | 3  | 2            |
+| Alexander Hunold | 6000   | IT_PROG     | 4502           | False      | <null>      | 4  | 2            |
+| Bruce Ernst      | 4800   | IT_PROG     | 4503           | False      | <null>      | 5  | 2            |
+| Valli Pataballa  | 4800   | IT_PROG     | 4504           | False      | <null>      | 6  | 2            |
+| Ismael Sciarra   | 12008  | FI_MGR      | 4506           | False      | <null>      | 7  | 3            |
+| Luis Popp        | 7800   | FI_ACCOUNT  | 4507           | False      | <null>      | 8  | 3            |
+| Den Raphaely     | 6900   | FI_ACCOUNT  | 4508           | True       | <null>      | 9  | 3            |
+| Jeremy Badger    | 450    | SW_DEV      | 4600           | True       | <null>      | 10 | 2            |
+| Steven King      | 17000  | AD_VP       | 4568           | False      | <null>      | 1  | 1            |
+| Neena Kochhar    | 17000  | AD_VP       | 4569           | False      | <null>      | 2  | 1            |
++------------------+--------+-------------+----------------+------------+-------------+----+--------------+
